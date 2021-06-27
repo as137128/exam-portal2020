@@ -1,0 +1,150 @@
+/*import font from Goolge*/
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+
+:root{
+    --light-gray:#2b3032a1;
+    --primary-color: #45ccb8;
+    --border:#2b303218;
+    --text-color:#ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+}
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color:var(--primary-color)!important;
+}
+.text-color{
+
+color: var(--text-color);
+}
+.font-roboto{
+    font-family: var(--roboto);
+}
+.lightblue{
+    color: lightblue;
+}
+/*header*/
+header{
+    background-color: var(--primary-color);
+    font-family: var(--roboto);
+}
+header.site-title{
+    font-family: var(--gugi);
+}
+.container.dropdown-toggle,
+.container.dropdown-item{
+    font-size: 0.7em;
+
+}
+.header-links a{
+    font-size: 0.9em;
+    text-decoration:none ;
+    color:white;
+}
+
+
+/*Navigation Menu*/
+.navbar-nav{
+    padding:0.8em 0em;
+}
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    color: var(--light-gray)!important;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0em 1.3em;
+}
+.navbar-nav .basket-icon{
+    margin-right: 6.5em !important;
+}
+
+
+/**footer*/
+footer{
+    background-color: var(--primary-color);
+    font-family: var(--roboto);
+}
+
+
+/**Log in style*/
+/* Full-width input fields */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+button {
+    background-color: #45ccb8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #36f4db;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    
+  }
+  
+  img.Profile {
+    max-width: 40%;
+    border-radius: 25%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width:50%; /* Could be more or less, depending on screen size */
+  }
+  
